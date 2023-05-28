@@ -1,0 +1,559 @@
+section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+section::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 80%;
+  background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
+  background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
+}
+#section01 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg01.jpg) center center / cover no-repeat;}
+
+.demo a {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #fff;
+  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+.demo a:hover {
+  opacity: .5;
+}
+
+#section01 a {
+  padding-top: 60px;
+}
+#section01 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+i {
+    
+   font-size:78px !important;
+  opacity: 0.7;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif; background-color:#E8F4FC !important;
+}
+
+
+
+.header-nightsky {
+    color: white;
+    background: url("../../assets/img/head.jpg") no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding-bottom: 30px;
+}
+
+
+
+.header-nightsky .navbar-nav>li>a {
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+
+
+.header-nightsky .navbar {
+    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    width: 100%;
+    border-bottom:none;
+    background-color: transparent;
+    min-width: 300px;
+    border: none;
+}
+
+
+
+.header-nightsky .navbar-default .navbar-nav>.open>a,
+.header-nightsky .navbar-default .navbar-nav>.open>a:focus,
+.header-nightsky .navbar-default .navbar-nav>.open>a:hover {
+    color: #ccc;
+    background-color: transparent;
+}
+
+
+
+.header-nightsky .nav>li>a:focus,
+.header-nightsky .nav>li>a:hover {
+    color: #ccc;
+    background-color: transparent;
+}
+
+
+
+
+.header-nightsky .navbar-nav>li {
+    margin-right: 10px;
+}
+
+
+
+
+.header-nightsky .navbar-nav {
+   margin-top: 12px;
+}
+
+
+
+.header-nightsky .navbar-toggle {
+    background-color: transparent !important;
+    margin-top: 20px;
+    border: 1px solid #fff;
+}
+
+
+
+.header-nightsky .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+
+
+
+.header-nightsky .navbar-brand {
+    color: white;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.header-nightsky .navbar-brand:hover {
+    color: #ccc;
+}
+
+
+
+.header-nightsky .hero {
+    text-align: center;
+    margin-top: 175px;
+    margin-bottom: 100px;
+}
+
+
+
+.header-nightsky .hero h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 75px;
+    margin-bottom: 36px;
+}
+
+
+
+
+
+.header-nightsky .hero p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 27px;
+    max-width: 660px;
+    margin: 0 auto 20px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+
+
+
+.header-nightsky .btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fffbfb !important;
+    outline:none;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 24px;
+    padding: 18px 24px;
+    transition:0.2s background-color;
+}
+
+
+
+
+.header-nightsky .btn-primary:hover {
+    background-color:rgba(255,255,255,0.4);
+}
+
+
+
+
+.header-nightsky .btn-primary:active {
+    transform:translateY(1px);
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+    .header-nightsky .navbar-default .navbar-nav .open .dropdown-menu>li>a{
+        color: #fff;
+        font-size: 16px;
+    }
+
+
+
+
+    .header-nightsky .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
+        color: #ccc;
+    }
+
+   
+
+ .header-nightsky .navbar-collapse {
+        margin-left: 20px;
+        border-top: none;
+        box-shadow: none;
+    }
+
+    
+
+
+.header-nightsky .hero{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+   
+
+
+ .header-nightsky .hero h1{
+        font-size: 42px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .navbar-brand{
+        transform: translateY(-180%);
+    }
+    .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover{
+          color:#FFF;
+          
+    }
+    
+    .footer-box {
+
+		
+		-webkit-box-shadow:0px 0px 30px #888888;
+	
+        margin-left:auto;
+	
+	margin-top:1%;
+	
+        display:inline-block;
+
+	      width:362px;
+	
+        height:180px;
+
+	        padding:15px;
+	border-radius: 10px;
+        background:ivory;
+	
+        color:grey;
+
+       	 	-webkit-transition:all 0.3s ease;
+
+	        -moz-transition:all 0.2s ease;
+	
+        background-position:320px 50%;
+	
+        background-repeat:no-repeat;
+
+	        text-decoration: none;
+    }
+
+
+    
+    .footer-box h5 {
+	
+        font: bold 34px Sans-Serif !important;
+
+	        text-transform:uppercase;
+
+	        font-size:38px;
+	
+        line-height:1;
+
+	        padding:0 0 10px 0;
+    }
+
+
+
+        .footer-box:hover h5 {
+            
+	
+        text-shadow:0 0 4px rgba(0,0,0,0.5);
+
+	        color:white;
+    }
+
+
+
+        .footer-box:hover p {
+
+	        color:white;
+    }
+
+
+    
+    .footer-box p {
+
+        	font-size:15px;
+
+	        width:205px;
+	
+        line-height:1.5;
+    }
+
+
+
+        .footer-box:hover {
+	
+       background-position:200px 50%;
+    }
+
+
+    #blog {
+	text-decoration: none;
+        background-image:url(blog2.png);
+			/*Blog*/
+	        background-position:390px -1288px;
+    }
+
+
+
+        #blog:hover {
+                text-decoration: none;
+		background-color:#FFA31A;
+	
+        background-position:210px -0px;
+    }
+    
+    
+        #projects {
+	
+        background-image:url(project.png);
+			/*Projects*/
+	        background-position:590px -20px;
+    }
+
+
+
+        #projects:hover {
+                text-decoration: none;
+		background-color:white;
+	
+        background-position:200px -20px;
+    }
+    
+    #projects:hover p,#projects:hover h5{
+        
+			color:black;
+    }
+    
+    
+
+
+
+    
+    #entrepreneur {	
+	        background-image:url(entrepreneur.png);
+			/*Entrepreneur*/
+	        background-position:400px -5px;
+    }
+
+	#entrepreneur:hover {
+                text-decoration: none;
+                background-color:black;
+	
+        background-position:147px -5px;
+    }
+
+
+	#entrepreneur:hover p {
+        
+			color:white;
+    }
+
+
+
+        #expert {
+
+	        background-image:url(suit.jpg);				/*Expert*/
+	
+        background-position:400px 20px;
+
+    }
+
+
+
+        #expert:hover {
+        
+		background-color:black;
+
+	        background-position:140px 20px;
+                 text-decoration: none;
+
+    }
+ 
+	#expert:hover p {
+	
+        	color:white;
+    }
+  
+
+	
+ 
+	
+
+ 	
+        #investor {
+	
+        background-image:url(investor.png);			/*Investor*/
+	
+        background-position:1000px -40px;
+		
+    }
+
+        #investor:hover {
+
+		text-decoration: none;
+                background-color: #64e1f2 ;
+	
+        background-position:260px 30px;
+    }
+
+
+	#investor:hover p {
+	
+        	color:black;
+    }
+ 
+	#investor:hover h5 {
+	
+        	color:black;}
+
+
+#ministry {
+	text-decoration: none;
+        background-image:url(ind.jpg);
+						/*Ministry*/
+	
+        background-position:1000px 0px;
+		
+    }
+
+        #ministry:hover {
+
+		
+                background-color:white;
+	
+        background-position:243px 0px;
+    }
+
+
+	#ministry:hover p {
+	
+        	color:black;
+    }
+ 
+	#ministry:hover h5 {
+	
+        	color:black;}
+
+
+
+
+
+
+
+
+ul {
+		
+		
+    list-style-type: none;
+		
+    padding: 0;
+}
+     
+   
+nav ul a {
+		
+    text-decoration: none;
+}
+
+footer{
+    width:100%;
+        padding: 3%;
+    color:#FFF;
+    background:url("head.jpg");
+}
+
+

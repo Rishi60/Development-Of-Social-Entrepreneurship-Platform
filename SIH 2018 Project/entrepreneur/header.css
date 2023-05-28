@@ -1,0 +1,589 @@
+
+
+body {
+    font-family: 'Montserrat', sans-serif; background-color:ivory;
+}
+
+#first {
+     margin-top: 7px;
+ }
+
+
+.secondary-header {
+    font-size: 25px;
+    font-family: "Century Gothic";
+}
+
+
+.header-nightsky {
+    color: white;
+    background: url("head.jpg") no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding: 10px;
+}
+
+
+
+.header-nightsky .navbar-nav>li>a {
+    color: white;
+    font-size: 18px;
+    border-radius: 0px;
+}
+
+
+
+.header-nightsky .navbar {
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 100%;
+    border-bottom:none;
+    background-color: transparent;
+    min-width: 30px;
+    border: none;
+}
+
+
+
+.header-nightsky .navbar-default .navbar-nav>.open>a,
+.header-nightsky .navbar-default .navbar-nav>.open>a:focus,
+.header-nightsky .navbar-default .navbar-nav>.open>a:hover {
+    color: #ccc;
+    background-color: transparent;
+}
+
+
+
+.header-nightsky .nav>li>a:focus,
+.header-nightsky .nav>li>a:hover {
+    color: #ccc;
+    background-color: transparent;
+}
+
+
+
+
+.header-nightsky .navbar-nav>li {
+    margin-right: 10px;
+}
+
+
+
+
+.header-nightsky .navbar-nav {
+   margin-top: 12px;
+}
+
+
+
+.header-nightsky .navbar-toggle {
+    background-color: transparent !important;
+    margin-top: 20px;
+    border: 1px solid #fff;
+}
+
+
+
+.header-nightsky .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+
+
+
+.header-nightsky .navbar-brand {
+    color: white;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.header-nightsky .navbar-brand:hover {
+    color: #ccc;
+}
+
+
+
+.header-nightsky .hero {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+.header-nightsky .hero h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+.header-nightsky .hero p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 27px;
+    max-width: 660px;
+    margin: 0 auto 20px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+
+
+
+.header-nightsky .btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fffbfb !important;
+    outline:none;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 24px;
+    padding: 18px 24px;
+    transition:0.2s background-color;
+}
+
+
+
+
+.header-nightsky .btn-primary:hover {
+    background-color:rgba(255,255,255,0.1);
+}
+
+
+
+
+.header-nightsky .btn-primary:active {
+    transform:translateY(1px);
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+    .header-nightsky .navbar-default .navbar-nav .open .dropdown-menu>li>a{
+        color: #fff;
+        font-size: 16px;
+    }
+
+
+
+
+    .header-nightsky .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
+        color: #ccc;
+
+    }
+ .header-nightsky .navbar-collapse {
+
+        border-top: none;
+        box-shadow: none;
+    }
+
+    
+
+
+.header-nightsky .hero{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+   
+
+
+ .header-nightsky .hero h1{
+        font-size: 42px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .navbar-brand{
+        transform: translateY(-170%);
+	
+    }
+    .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover{
+          color:#FFF;
+          
+    }
+    
+    .footer-box {
+
+		
+		-webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.9);
+	
+        margin-left:auto;
+	
+	margin-top:1%;
+	
+        display:inline-block;
+
+	      width:362px;
+	
+        height:180px;
+
+	        padding:15px;
+	
+        background:#e6e2df;
+	
+        color:black;
+
+       	 	-webkit-transition:all 0.3s ease;
+
+	        -moz-transition:all 0.2s ease;
+	
+        background-position:320px 50%;
+	
+        background-repeat:no-repeat;
+
+	        text-decoration: none;
+    }
+
+
+    
+    .footer-box h5 {
+	
+        font: bold 34px Sans-Serif !important;
+
+	        text-transform:uppercase;
+
+	        font-size:38px;
+	
+        line-height:1;
+
+	        padding:0 0 10px 0;
+    }
+
+
+
+        .footer-box:hover h5 {
+            
+	
+        text-shadow:0 0 4px rgba(0,0,0,0.5);
+
+	        color:white;
+    }
+
+
+
+        .footer-box:hover p {
+
+	        color:white;
+    }
+
+
+    
+    .footer-box p {
+
+        	font-size:15px;
+
+	        width:205px;
+	
+        line-height:1.5;
+    }
+
+
+
+        .footer-box:hover {
+	
+       background-position:200px 50%;
+    }
+
+
+    #blog {
+	
+        background-image:url(blog2.png);
+			/*Blog*/
+	        background-position:390px -1288px;
+    }
+
+
+
+        #blog:hover {
+                text-decoration: none;
+		background-color:#FFA31A;
+	
+        background-position:240px -0px;
+    }
+
+
+    
+    #entrepreneur {	
+	        background-image:url(entrepreneur.png);
+			/*Entrepreneur*/
+	        background-position:400px -5px;
+    }
+
+	#entrepreneur:hover {
+                text-decoration: none;
+                background-color:black;
+	
+        background-position:147px -5px;
+    }
+
+
+	#entrepreneur:hover p {
+        
+			color:white;
+    }
+
+
+
+        #expert {
+
+	        background-image:url(suit.jpg);				/*Expert*/
+	
+        background-position:400px 20px;
+
+    }
+
+
+
+        #expert:hover {
+        
+		background-color:black;
+
+	        background-position:140px 20px;
+                 text-decoration: none;
+
+    }
+ 
+	#expert:hover p {
+	
+        	color:white;
+    }
+  
+
+	
+ 
+	
+
+ 	
+        #investor {
+	
+        background-image:url(investor.jpg);			/*Investor*/
+	
+        background-position:1000px -40px;
+		color:black;
+    }
+
+        #investor:hover {
+
+		text-decoration: none;
+                background-color:#F52851;
+	
+        background-position:165px -30px;
+    }
+
+
+	#investor:hover p {
+	
+        	color:white;
+    }
+ 
+	#investor:hover h5 {
+	
+        	color:white;}
+
+
+#ministry {
+	text-decoration: none;
+        background-image:url(ind.jpg);
+						/*Ministry*/
+	
+        background-position:1000px 0px;
+		color:black;
+    }
+
+        #ministry:hover {
+
+		
+                background-color:white;
+	
+        background-position:243px 0px;
+    }
+
+
+	#ministry:hover p {
+	
+        	color:black;
+    }
+ 
+	#ministry:hover h5 {
+	
+        	color:black;}
+
+
+
+
+
+
+
+
+ul {
+		
+		
+    list-style-type: none;
+		
+    padding: 0;
+}
+     
+   
+nav ul a {
+		
+    text-decoration: none;
+}
+
+footer{
+    width:100%;
+        padding: 3%;
+    color:#FFF;
+    background:url("head.jpg");
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+.allButFooter {
+    min-height: calc(100vh - 40px);
+}
+
+@import "compass/css3";
+
+/***********************
+ * Essential Structure *
+ ***********************/
+.flexsearch--wrapper {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    overflow: hidden;
+    background: transparent;
+    margin: 0;
+    position: static;
+}
+
+.flexsearch--form {
+    overflow: hidden;
+    position: relative;
+}
+
+.flexsearch--input-wrapper {
+    padding: 0 66px 0 0; /* Right padding for submit button width */
+    overflow: hidden;
+}
+
+.flexsearch--input {
+    width: 100%;
+}
+
+/***********************
+ * Configurable Styles *
+ ***********************/
+.flexsearch {
+    padding: 0 25px 0 200px; /* Padding for other horizontal elements */
+}
+
+.flexsearch--input {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 60px;
+    padding: 0 46px 0 10px;
+    border-color: black;
+    border-radius: 35px; /* (height/2) + border-width */
+    border-style: solid;
+    border-width: 5px;
+    margin-top: 15px;
+    color: #333;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 26px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.flexsearch--submit {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    border: none;
+    margin-top: 20px; /* margin-top + border-width */
+    margin-right: 5px; /* border-width */
+    background: transparent;
+    color: #888;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.flexsearch--input:focus {
+    outline: none;
+    border-color: #333;
+}
+
+.flexsearch--input:focus.flexsearch--submit {
+    color: #333;
+}
+
+.flexsearch--submit:hover {
+    color: #333;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+    color: #888;
+}
+
+input:-moz-placeholder {
+    color: #888;
+}
+

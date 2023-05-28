@@ -1,0 +1,142 @@
+div.container {                                 /*blogger*/
+    width: 100%;
+    border: 1px solid gray;
+}
+header, footer {
+    padding: 0.5em;
+    color: white;
+    background-color:  #8e44ad;
+    clear: left;
+    text-align: center;
+}
+
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc; 
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	body {
+		overflow-x: hidden;
+	}
+	
+
+	#demo-bar-badge a {
+		display: block;
+		width: 100%;
+		height: 38px;
+		border-radius: 0;
+		bottom: auto;
+		margin: 0;
+		background: url(/images/examples-logo.png) no-repeat;
+		background-size: 100%;
+		overflow: hidden;
+		text-indent: -9999px;
+	}
+	#demo-bar-badge:before, #demo-bar-badge:after {
+		display: none !important;
+	}
+
+
+
+.buttonb{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 10px;
+}
+
+.buttonb1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid black;
+}
+
+.buttonb1:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button {
+  display: inline-block;
+  padding: 8px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #486bd7;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+.button:hover {background-color: #b00be8}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
+select{
+    margin:40px;
+    background:blue;
+    color:#fff;
+    text-shadow:0 1px 0 rgba(0,0,0,0.4);
+}
+input{
+    margin:40px;
+    background:#87ceeb;
+    color:#fff;
+    text-shadow: black ;
+}
+
+p.italic {
+    font-style: italic;
+}
+
+

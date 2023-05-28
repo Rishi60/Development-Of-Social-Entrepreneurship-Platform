@@ -1,0 +1,469 @@
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif; background-color:ivory;
+}
+
+
+
+.header-nightsky {
+    color: white;
+    background: url("head.jpg") ;
+    
+    background-position: bottom;
+    padding-bottom: 20px;
+}
+
+
+
+.header-nightsky .navbar-nav>li>a {
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+
+
+.header-nightsky .navbar {
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    border-bottom:none;
+    background-color: transparent;
+    min-width: 300px;
+    border: none;
+}
+
+
+
+.header-nightsky .navbar-default .navbar-nav>.open>a,
+.header-nightsky .navbar-default .navbar-nav>.open>a:focus,
+.header-nightsky .navbar-default .navbar-nav>.open>a:hover {
+    color: #ccc;
+    background-color: transparent;
+}
+
+
+
+.header-nightsky .nav>li>a:focus,
+.header-nightsky .nav>li>a:hover {
+    color: #ccc;
+    background-color: transparent;
+}
+
+
+
+
+.header-nightsky .navbar-nav>li {
+    margin-right: 10px;
+}
+
+
+
+
+.header-nightsky .navbar-nav {
+   margin-top: 12px;
+}
+
+
+
+.header-nightsky .navbar-toggle {
+    background-color: transparent !important;
+    margin-top: 20px;
+    border: 1px solid #fff;
+}
+
+
+
+.header-nightsky .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+
+
+
+.header-nightsky .navbar-brand {
+    color: white;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.header-nightsky .navbar-brand:hover {
+    color: #ccc;
+}
+
+
+
+.header-nightsky .hero {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+.header-nightsky .hero h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+.header-nightsky .hero p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 27px;
+    max-width: 660px;
+    margin: 0 auto 20px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+
+
+
+.header-nightsky .btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fffbfb !important;
+    outline:none;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 24px;
+    padding: 18px 24px;
+    transition:0.2s background-color;
+}
+
+
+
+
+.header-nightsky .btn-primary:hover {
+    background-color:rgba(255,255,255,0.1);
+}
+
+
+
+
+.header-nightsky .btn-primary:active {
+    transform:translateY(1px);
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+    .header-nightsky .navbar-default .navbar-nav .open .dropdown-menu>li>a{
+        color: #fff;
+        font-size: 16px;
+    }
+
+
+
+
+    .header-nightsky .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
+        color: #ccc;
+    }
+
+   
+
+ .header-nightsky .navbar-collapse {
+        margin-left: 20px;
+        border-top: none;
+        box-shadow: none;
+    }
+
+    
+
+
+.header-nightsky .hero{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+   
+
+
+ .header-nightsky .hero h1{
+        font-size: 42px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .navbar-brand{
+        transform: translateY(-170%);
+	
+    }
+    .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover{
+          color:#FFF;
+          
+    }
+    
+    .footer-box {
+
+		
+		-webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.9);
+	
+        margin-left:auto;
+	
+	margin-top:1%;
+	
+        display:inline-block;
+
+	      width:362px;
+	
+        height:180px;
+
+	        padding:15px;
+	
+        background:#e6e2df;
+	
+        color:black;
+
+       	 	-webkit-transition:all 0.3s ease;
+
+	        -moz-transition:all 0.2s ease;
+	
+        background-position:320px 50%;
+	
+        background-repeat:no-repeat;
+
+	        text-decoration: none;
+    }
+
+
+    
+    .footer-box h5 {
+	
+        font: bold 34px Sans-Serif !important;
+
+	        text-transform:uppercase;
+
+	        font-size:38px;
+	
+        line-height:1;
+
+	        padding:0 0 10px 0;
+    }
+
+
+
+        .footer-box:hover h5 {
+            
+	
+        text-shadow:0 0 4px rgba(0,0,0,0.5);
+
+	        color:white;
+    }
+
+
+
+        .footer-box:hover p {
+
+	        color:white;
+    }
+
+
+    
+    .footer-box p {
+
+        	font-size:15px;
+
+	        width:205px;
+	
+        line-height:1.5;
+    }
+
+
+
+        .footer-box:hover {
+	
+       background-position:200px 50%;
+    }
+
+
+    #blog {
+	
+        background-image:url(blog2.png);
+			/*Blog*/
+	        background-position:390px -1288px;
+    }
+
+
+
+        #blog:hover {
+                text-decoration: none;
+		background-color:#FFA31A;
+	
+        background-position:240px -0px;
+    }
+
+
+    
+    #entrepreneur {	
+	        background-image:url(entrepreneur.png);
+			/*Entrepreneur*/
+	        background-position:400px -5px;
+    }
+
+	#entrepreneur:hover {
+                text-decoration: none;
+                background-color:black;
+	
+        background-position:147px -5px;
+    }
+
+
+	#entrepreneur:hover p {
+        
+			color:white;
+    }
+
+
+
+        #expert {
+
+	        background-image:url(suit.jpg);				/*Expert*/
+	
+        background-position:400px 20px;
+
+    }
+
+
+
+        #expert:hover {
+        
+		background-color:black;
+
+	        background-position:140px 20px;
+                 text-decoration: none;
+
+    }
+ 
+	#expert:hover p {
+	
+        	color:white;
+    }
+  
+
+	
+ 
+	
+
+ 	
+        #investor {
+	
+        background-image:url(investor.jpg);			/*Investor*/
+	
+        background-position:1000px -40px;
+		color:black;
+    }
+
+        #investor:hover {
+
+		text-decoration: none;
+                background-color:#F52851;
+	
+        background-position:165px -30px;
+    }
+
+
+	#investor:hover p {
+	
+        	color:white;
+    }
+ 
+	#investor:hover h5 {
+	
+        	color:white;}
+
+
+#ministry {
+	text-decoration: none;
+        background-image:url(ind.jpg);
+						/*Ministry*/
+	
+        background-position:1000px 0px;
+		color:black;
+    }
+
+        #ministry:hover {
+
+		
+                background-color:white;
+	
+        background-position:243px 0px;
+    }
+
+
+	#ministry:hover p {
+	
+        	color:black;
+    }
+ 
+	#ministry:hover h5 {
+	
+        	color:black;}
+
+
+
+
+
+
+
+
+ul {
+		
+		
+    list-style-type: none;
+		
+    padding: 0;
+}
+     
+   
+nav ul a {
+		
+    text-decoration: none;
+}
+
+footer
+{
+    width:100%;
+        padding: 1%;
+    color:#FFF;
+    background:url("head.jpg");
+    background-size: cover;
+}
+
+
